@@ -3,12 +3,12 @@ name: Hello Workflow
 on: [push]
 
 jobs:
-  say-hello:
+  hello-job:
     runs-on: ubuntu-latest
 
     steps:
       - name: Print Hello
-        run: echo "Hello"
+        run: echo "Hello World"
 
       - name: Print Name
-        run: echo "My name is Krish"
+        run: echo "My name is Krish Sharma"
